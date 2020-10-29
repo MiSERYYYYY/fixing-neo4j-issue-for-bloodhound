@@ -1,3 +1,4 @@
 # fixing-neo4j-issue-for-bloodhound
 
-[Imgur](https://imgur.com/Fl3rPPI)
+
+[1](https://imgur.com/Fl3rPPI)
