@@ -9,3 +9,8 @@
 `$javaPath = 'C:\Program Files\Java\jdk-11.x.x\'`
 
 Should be fixed now.
+
+# fixing LinkedIt tool install errors
+
+1. Remove 
+2. pip2.7 install thready
