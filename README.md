@@ -12,5 +12,6 @@ Should be fixed now.
 
 # fixing LinkedIt tool install errors
 
-1. Remove 
+1. Remove "pkg-resources==0.0.0" from requirements.txt
+2. pip install -r requirements.txt
 2. pip2.7 install thready
