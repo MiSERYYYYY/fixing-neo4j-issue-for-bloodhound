@@ -15,3 +15,10 @@ Should be fixed now.
 1. Remove "pkg-resources==0.0.0" from requirements.txt
 2. pip install -r requirements.txt
 2. pip2.7 install thready
+
+# fixing control+left or right arrow to go back a word iTerm2 for MacOS
+
+for zsh:
+
+1. edit ~/.zshrc
+2. add `bindkey -e; bindkey '\e\e[C' forward-word; bindkey '\e\e[D' backward-word`
