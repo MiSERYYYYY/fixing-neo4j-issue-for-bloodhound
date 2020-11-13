@@ -22,3 +22,4 @@ for zsh:
 
 1. edit ~/.zshrc
 2. add `bindkey -e; bindkey '\e\e[C' forward-word; bindkey '\e\e[D' backward-word`
+3. option+arrow works
