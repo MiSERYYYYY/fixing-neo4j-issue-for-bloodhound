@@ -23,3 +23,9 @@ for zsh:
 1. edit ~/.zshrc
 2. add `bindkey -e; bindkey '\e\e[C' forward-word; bindkey '\e\e[D' backward-word`
 3. option+arrow works
+
+# Bullets not appearing (Microsoft Word MacOS)
+https://superuser.com/questions/1143247/word-2013-bullets-dont-appear-when-creating-bullet-list
+```
+In case anyone else is having the issue (I had it with Word 2019 Office 365 for Mac): I realised that for me the problem was being caused by page breaks. If I hit enter then I could create a bullet list on the line above, just not for the line that included the page break. I hope this helps!
+```
