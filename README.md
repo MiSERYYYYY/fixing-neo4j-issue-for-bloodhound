@@ -35,3 +35,12 @@ Restart vm-tools
 ```
 # restart vm-tools
 ```
+
+# Office 365 (Your message wasn't delivered because the recipient's email provider rejected it.)
+
+Access https://protection.office.com/antispam
+
+Login with email@email.com
+Click on Expand Outbound spam filter policy and click Edit policy.
+Click on Expand Automatic forwarding and set the setting to On.
+Click Save.
