@@ -45,7 +45,12 @@ Click on Expand Outbound spam filter policy and click Edit policy.
 Click on Expand Automatic forwarding and set the setting to On.
 Click Save.
 
-# Apache webserver permission issues writing to a file
+# Apache webserver - permission issues writing to a file
 ```
 # chown -Rf www-data:www-data test/*
+```
+
+# Apache webserver - don't remove "others" read permission to your folder 
+```
+# chmod -R o-rwx directory/
 ```
