@@ -44,3 +44,8 @@ Login with email@email.com
 Click on Expand Outbound spam filter policy and click Edit policy.
 Click on Expand Automatic forwarding and set the setting to On.
 Click Save.
+
+# Apache webserver permission issues writing to a file
+```
+# chown -Rf www-data:www-data test/*
+```
