@@ -54,3 +54,7 @@ Click Save.
 ```
 # chmod -R o-rwx directory/
 ```
+
+# Error: Skipping bootstrap because certbot-auto is deprecated on this system. (When installing SSL thru Let's Encrypt)
+https://snapcraft.io/docs/installing-snap-on-kali
+https://certbot.eff.org/lets-encrypt/pip-apache
