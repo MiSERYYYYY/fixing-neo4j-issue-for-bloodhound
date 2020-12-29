@@ -57,4 +57,13 @@ Click Save.
 
 # Error: Skipping bootstrap because certbot-auto is deprecated on this system. (When installing SSL thru Let's Encrypt)
 https://snapcraft.io/docs/installing-snap-on-kali
+
 https://certbot.eff.org/lets-encrypt/pip-apache
+
+# Error: Proxychains nmap
+Error: ```nmap: netutil.cc:1319: int collect_dnet_interfaces(const intf_entry*, void*): Assertion `rc == 0' failed.```
+
+Solution: Uncomment "proxy_dns" from /etc/proxychains.conf then run:
+```
+proxychains nmap -Pn -sT -p 1433 -sC -sV 10.10.1.2 
+```
