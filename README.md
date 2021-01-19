@@ -67,3 +67,9 @@ Solution: Uncomment "proxy_dns" from /etc/proxychains.conf then run:
 ```
 proxychains nmap -Pn -sT -p 1433 -sC -sV 10.10.1.2 
 ```
+
+# Error: E:\Tools\Creds\helpers\prac\execute_assembly_bin.nim(15, 13) Error: cannot open file: winim/clr
+Fix: https://github.com/khchen/winim
+```
+PS E:\Tools\Creds\helpers\prac> nimble.exe install winim
+```
