@@ -73,3 +73,7 @@ Fix: https://github.com/khchen/winim
 ```
 PS E:\Tools\Creds\helpers\prac> nimble.exe install winim
 ```
+# CrackMapExec segmentation fault when generating SSL certificate
+```
+openssl req -new -x509 -keyout ~/.cme/cme.pem -out ~/.cme/cme.pem -days 365 -nodes -subj "/C=US"
+```
