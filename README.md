@@ -96,3 +96,14 @@ After this to restore drag and drop support you can run
 ```
 VBoxClient-all
 ```
+
+# Enable shared folder VMWare workstation 
+
+https://superuser.com/questions/588304/no-mnt-hgfs-in-ubuntu-guest-under-vmware-fusion/1323483
+```
+sudo mkdir /mnt/hgfs
+```
+Use the above command first, followed by the following:
+```
+sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
+```
