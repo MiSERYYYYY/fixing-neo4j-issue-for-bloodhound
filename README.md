@@ -77,3 +77,22 @@ PS E:\Tools\Creds\helpers\prac> nimble.exe install winim
 ```
 openssl req -new -x509 -keyout ~/.cme/cme.pem -out ~/.cme/cme.pem -days 365 -nodes -subj "/C=US"
 ```
+
+# Virtualbox VM freezing top left quarter
+https://askubuntu.com/questions/1014172/virtualbox-unresponsive-area-on-desktop
+For me killing instances ran with --draganddrop parameter restored the functionality of that area.
+
+You can open terminal using keyboard combination of ctrl+alt+t, and type:
+```
+ps aux www | grep VBoxClient --
+```
+to look for the process ID (PID) then kill it with
+```
+kill -9 PID
+```
+Alternatively `pkill VBoxClient` might do the trick.
+
+After this to restore drag and drop support you can run
+```
+VBoxClient-all
+```
