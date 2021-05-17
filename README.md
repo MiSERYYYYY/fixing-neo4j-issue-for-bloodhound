@@ -107,3 +107,7 @@ Use the above command first, followed by the following:
 ```
 sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
 ```
+
+# Copy paste not working after Kali upgrade (VMWare PRO)
+
+https://askubuntu.com/questions/691585/copy-paste-and-dragdrop-not-working-in-vmware-machine-with-ubuntu
