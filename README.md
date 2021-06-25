@@ -111,3 +111,9 @@ sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
 # Copy paste not working after Kali upgrade (VMWare PRO)
 
 https://askubuntu.com/questions/691585/copy-paste-and-dragdrop-not-working-in-vmware-machine-with-ubuntu
+
+# TMUX autoscroll when highlighting in terminal
+https://www.youtube.com/watch?v=XR5_hPT5i2g
+```
+set -g terminal-overrides 'xterm*:smcup@:rmcup@'
+```
