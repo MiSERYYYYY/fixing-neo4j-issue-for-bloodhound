@@ -117,3 +117,7 @@ https://www.youtube.com/watch?v=XR5_hPT5i2g
 ```
 set -g terminal-overrides 'xterm*:smcup@:rmcup@'
 ```
+
+# Turn of Kali Linux or any debian's beep
+
+The beeping comes by default from Kali Linux and it has many reasons why it beeps. One way to turn it off, is by opening a terminal and write: `gedit /etc/inputrc` you have to find a line which tells `# set bell-style none` you have to uncomment that, save it and it should work
