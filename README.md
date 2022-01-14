@@ -121,3 +121,11 @@ set -g terminal-overrides 'xterm*:smcup@:rmcup@'
 # Turn of Kali Linux or any debian's loud beep
 
 ` sudo xset b off`
+
+# MACOS terminal skip a word using ctrl+ right or left arrow keys
+
+https://apple.stackexchange.com/questions/52147/control-arrow-key-to-jump-to-the-next-word
+
+Uncheck the two boxes:
+
+![image](https://user-images.githubusercontent.com/66387143/149575874-929e4694-5a27-428d-b1c8-9e4dce4e7a88.png)
