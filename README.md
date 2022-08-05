@@ -129,3 +129,12 @@ https://apple.stackexchange.com/questions/52147/control-arrow-key-to-jump-to-the
 Uncheck the two boxes:
 
 ![image](https://user-images.githubusercontent.com/66387143/149575874-929e4694-5a27-428d-b1c8-9e4dce4e7a88.png)
+
+# Configuring Flameshot key for Kali
+
+https://askubuntu.com/questions/1036473/how-to-change-screenshot-application-to-flameshot-on-ubuntu-18-04
+
+1. Search "keyboard" and go to "Application Shortcuts"
+2. +Add a shortcut
+3. Command: /usr/bin/flameshot gui
+4. Select a shortcut by pressing keys
